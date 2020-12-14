@@ -1,0 +1,6 @@
+### define service name and routing behavior ###
+zuul:
+  routes:
+    product:
+      path: /dependent/**
+      serviceId: depedentservice
